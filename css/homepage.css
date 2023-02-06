@@ -1,0 +1,155 @@
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #333;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+header h1 {
+margin: 0;
+}
+
+header form {
+display: flex;
+}
+
+header input[type="text"] {
+border: none;
+background-color: #fff;
+padding: 10px;
+color: #333;
+font-size: 16px;
+}
+
+header button[type="submit"] {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border: none;
+font-size: 16px;
+cursor: pointer;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav li {
+margin-right: 20px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+}
+
+.featured h2,
+.new-arrivals h2 {
+text-align: center;
+margin-top: 50px;
+margin-bottom: 30px;
+font-size: 24px;
+}
+
+.featured .product-card {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+width: 25%;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.featured .product-card img {
+width: 100%;
+}
+
+.featured .product-card h3 {
+margin-top: 20px;
+font-size: 20px;
+}
+
+.featured .product-card .price {
+font-size: 18px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.new-arrivals table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 50px;
+}
+
+.new-arrivals th,
+.new-arrivals td {
+border: 1px solid #333;
+padding: 10px;
+text-align: center;
+font-size: 18px;
+}
+
+.new-arrivals a {
+color: #333;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+margin: 0;
+font-size: 16px;
+}
+
+.li {
+    font-size: 40px;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  .product-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .product-info {
+    width: calc(100% - 200px);
+    padding-left: 20px;
+  }
+
+  .product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .product-price {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+  }
